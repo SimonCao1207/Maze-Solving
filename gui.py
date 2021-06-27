@@ -64,8 +64,7 @@ def checkEvents(event):
             move = 'Right'
     return move
 
-
-# INIT :
+    
 
 def finalGUI(cellMAP, name: str="GridMaker"):
 	layout = [[sg.Canvas(size=(_VARS['gridSize'], _VARS['gridSize']),
